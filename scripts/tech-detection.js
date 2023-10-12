@@ -29,7 +29,7 @@ function googleSearch(type) {
             return;
                                     
         case 5:
-            var url = 'https://fullhunt.io/search?query=' + encodeURIComponent(site);
+            var url = 'https://whatcms.org/?s=' + encodeURIComponent(site);
             window.open(url, '_blank');
             return;
                                         
