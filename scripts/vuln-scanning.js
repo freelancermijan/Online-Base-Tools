@@ -13,10 +13,10 @@ function googleSearch(type) {
             window.open(url, '_blank');
             return;
             
-            case 2:
-                var url = 'https://web-check.as93.net/results/https%3A%2F%2F' + encodeURIComponent(site);
-                window.open(url, '_blank');
-                return;
+        case 2:
+            var url = 'https://web-check.as93.net/results/' + encodeURIComponent(site);
+            window.open(url, '_blank');
+            return;
                 
         default:
             alert('Invalid option.');
