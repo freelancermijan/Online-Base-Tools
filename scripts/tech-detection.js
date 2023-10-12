@@ -8,27 +8,27 @@ function googleSearch(type) {
 
     var site = targetDomain;
     switch (type) {
-        case 1:
+        case t1:
             var url = 'https://builtwith.com/' + encodeURIComponent(site);
             window.open(url, '_blank');
             return;        
             
-        case 2:
+        case t2:
             var url = 'https://w3techs.com/sites/info/' + encodeURIComponent(site);
             window.open(url, '_blank');
             return;
                     
-        case 3:
+        case t3:
             var url = 'https://webtechsurvey.com/website/' + encodeURIComponent(site);
             window.open(url, '_blank');
             return;
                             
-        case 4:
+        case t4:
             var url = 'https://www.wappalyzer.com/lookup/' + encodeURIComponent(site) + '/';
             window.open(url, '_blank');
             return;
                                     
-        case 5:
+        case t5:
             var url = 'https://whatcms.org/API/Tech?key=wqmgef5fud41vayb3lrd7kc0od4nzlcwr0lp43fy6cvpwhhtxlbquejkz9c44zql32eyzs&url=' + encodeURIComponent(site);
             window.open(url, '_blank');
             return;

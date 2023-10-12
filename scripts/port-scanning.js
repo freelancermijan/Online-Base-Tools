@@ -8,7 +8,7 @@ function googleSearch(type) {
 
     var site = targetDomain;
     switch (type) {
-        case 1:
+        case p1:
             var url = 'https://dnschecker.org/port-scanner.php?query=' + encodeURIComponent(site) + '&ptype=server';
             window.open(url, '_blank');
             return;
