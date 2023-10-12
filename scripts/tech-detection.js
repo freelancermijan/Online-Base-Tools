@@ -29,7 +29,7 @@ function googleSearch(type) {
             return;
                                     
         case 5:
-            var url = 'https://whatcms.org/?s=' + encodeURIComponent(site);
+            var url = 'ttps://whatcms.org/API/Tech?key=wqmgef5fud41vayb3lrd7kc0od4nzlcwr0lp43fy6cvpwhhtxlbquejkz9c44zql32eyzs&url=' + encodeURIComponent(site);
             window.open(url, '_blank');
             return;
                                         
