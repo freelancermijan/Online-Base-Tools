@@ -1,0 +1,11 @@
+.dork>a{
+    border: 1px solid rgb(0, 0, 0);
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+.dork>ul>li:hover{
+color: red;
+cursor: pointer;
+}
